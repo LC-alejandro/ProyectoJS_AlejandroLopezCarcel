@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+header{
+    width: 100%;
+    background-color: black;
+
+    border-bottom: 7px solid #abea02;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gif{
+    width: 20%;
+}
+body{
+    margin: 0px;
+    background-color: #3D3B3B;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+header h1{
+    width: 70%;
+    text-align: center;
+    color: #abea02;
+}
+.botones button{
+    background-color: black;
+    margin: 5px;
+    font-weight: bolder;
+    color: #abea02;
+    padding: 5px;
+    width: 70px;
+    padding: 5px;
+    border-radius: 10px 10px;
+}
+
+#anadir{
+    width: 400px;
+}
+.botones{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+}
+#cajaAnuncios{
+    width: 80%;
+    margin: auto;
+    background-color: #3D3B3B;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    border-radius: 15px 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.anuncio{
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    margin-bottom: 30px;
+
+    border-radius: 15px 15px;
+    padding-bottom: 20px;
+}
+.anuncio .arriba{
+    display: flex;
+    flex-direction: row;
+
+}
+.anuncio .cajaIz{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anuncio .cajaDere{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.anuncio .botones button{
+
+    width: max-content;
+}
+.anuncio .imagen{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anuncio .imagen img{
+    border-radius: 10px 10px;
+    width: 90%;
+
+}
+.anuncio .marcaModeloFabricacion{
+    font-size: 40px;
+    font-weight: bold;
+}
+.anuncio .contacto {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+#textoPrecio{
+    color: white;
+    font-size: 20px;
+}
+p{
+    font-weight: bold;
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+body{
+    background-color: #3D3B3B;
+    margin: 0;
+}
+header h1{
+    width: 70%;
+    text-align: center;
+    color: #abea02;
+}
+*{
+    font-weight: bold;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+h2{
+    text-align: center;
+}
+#anadirAnuncio{
+    margin: auto;
+    background-color: white;
+    border-radius: 10px 10px;
+    padding: 10px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#anadirAnuncio label{
+    width: 150px;
+}
+header{
+    width: 100%;
+    background-color: black;
+
+    border-bottom: 7px solid #abea02;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botonPulsar{
+    width: 100%;
+    background-color: #222222;
+    color: #abea02;
+    padding: 5px;
+    border-radius: 10px 10px;
+}
+#anadirAnuncio img{
+    width: 200px;
+}
+#anadirAnuncio #pImagen{
+    display: flex;
+    justify-content: center;
+}

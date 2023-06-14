@@ -1,0 +1,114 @@
+{
+  "anuncios": [
+    {
+      "image": "ferrari.jpg",
+      "marca": "Ferrari",
+      "modelo": "La Ferrari",
+      "fabricacion": 2022,
+      "kms": 12000,
+      "cambio": "automatico",
+      "precio": 1300000,
+      "combustible": "gasolina",
+      "dueno": {
+        "nombre": "Enrique",
+        "apellidos": "Palomares Diaz",
+        "telefono": "678907654"
+      },
+      "localidad": {
+        "nombre": "Cordoba",
+        "provincia": "Cordoba",
+        "comunidad_autonoma": "Andalucia",
+        "pais": "España"
+      },
+      "id": 6
+    },
+    {
+      "image": "bmw-m4.jpg",
+      "marca": "BMW",
+      "modelo": "M4",
+      "fabricacion": 2022,
+      "kms": 12000,
+      "cambio": "automatico",
+      "precio": 120000,
+      "combustible": "gasolina",
+      "dueno": {
+        "nombre": "Llados",
+        "apellidos": "Perez Gonzalez",
+        "telefono": "678907654"
+      },
+      "localidad": {
+        "nombre": "Madrid",
+        "provincia": "Madrid",
+        "comunidad_autonoma": "Comunidad de Madrid",
+        "pais": "España"
+      },
+      "id": 7
+    },
+    {
+      "image": "lambo.jpg",
+      "marca": "Lamborghini",
+      "modelo": "Huracán",
+      "fabricacion": 2019,
+      "kms": 23456,
+      "cambio": "automatico",
+      "precio": 234560,
+      "combustible": "gasolina",
+      "dueno": {
+        "nombre": "Jaume",
+        "apellidos": "Fernandez Lopez",
+        "telefono": "659765434"
+      },
+      "localidad": {
+        "nombre": "Barcelona",
+        "provincia": "Barcelona",
+        "comunidad_autonoma": "Cataluña",
+        "pais": "España"
+      },
+      "id": 9
+    },
+    {
+      "image": "alfa-romeo-giulia-2023.jpg",
+      "marca": "Alfa Romeo",
+      "modelo": "Giulia",
+      "fabricacion": 2022,
+      "kms": 0,
+      "cambio": "automatico",
+      "precio": 45000,
+      "combustible": "diesel",
+      "dueno": {
+        "nombre": "David",
+        "apellidos": "Serrano Hernández",
+        "telefono": "722786543"
+      },
+      "localidad": {
+        "nombre": "Malpartida de Plasencia",
+        "provincia": "Caceres",
+        "comunidad_autonoma": "Extremadura",
+        "pais": "España"
+      },
+      "id": 10
+    },
+    {
+      "image": "corsa.jpg",
+      "marca": "Opel",
+      "modelo": "Corsa",
+      "fabricacion": 2008,
+      "kms": 204000,
+      "cambio": "manual",
+      "precio": 3000,
+      "combustible": "diesel",
+      "dueno": {
+        "nombre": "Alejandro",
+        "apellidos": "Lopez Carcel",
+        "telefono": "722565654"
+      },
+      "localidad": {
+        "nombre": "Malpartida de Plasencia",
+        "provincia": "Caceres",
+        "comunidad_autonoma": "Extremadura",
+        "pais": "España"
+      },
+      "id": 13
+    }
+  ]
+}

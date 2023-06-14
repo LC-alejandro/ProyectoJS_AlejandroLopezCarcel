@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+
+</head>
+<body>
+<header>
+    <h1>COCHES.ES</h1>
+</header>
+<div id="anadirAnuncio">
+    <h2>EDITAR ANUNCIO</h2>
+    <form method='post' action=''>
+        <p id="pImagen"><img src=""> </p>
+        <p><label>Cambiar Imagen: </label></p>
+        <p><input type="file" id="imagen" ></p>
+        <p><label>Marca: </label><input id='marca' type='text' class="vacio" placeholder='Marca'></p>
+        <p><label>Modelo: </label><input id='modelo' type='text' class="vacio" placeholder='Modelo'></p>
+        <p><label>Año de fabricación: </label><input id='fabri' class="vacio" type='text' placeholder='Año de fabricacion'></p>
+        <p><label>Localidad: </label><input id='localidad' class="vacio" type='text' placeholder='Localidad'></p>
+        <p><label>Provincia: </label><input id='provincia' class="vacio" type='text' placeholder='Provincia'></p>
+        <p><label>Pais: </label><input id='pais' type='text' class="vacio" placeholder='Pais'></p>
+        <p><label>Comunidad Autonoma: </label><input id='comunidad' class="vacio" type='text' placeholder='Comunidad Autonoma'></p>
+        <p><label>Kilometraje: </label><input type='number' id="km" class="vacio" placeholder='Kilometraje'></p>
+        <p><label>Cambio: </label><input id='cambio' type='text' class="vacio" placeholder='Cambio'></p>
+        <p><label>Precio: </label><input id='precio' type='number' class="vacio" placeholder='Precio'></p>
+        <p><label>Combustible: </label><input id='combus' type='text' class="vacio" placeholder='Combustible'></p>
+        <p><label>Nombre Dueño: </label><input id='nombredueno' type='text' class="vacio" placeholder='Nombre Dueño'></p>
+        <p><label>Apellidos Dueño: </label><input id='apellidosdueno' type='text' class="vacio" placeholder='Apellidos Dueño'></p>
+        <p><label>Telefono Dueño: </label><input id='telefono' type='number' class="vacio" placeholder='Telefono Dueño'></p>
+        <p><button id="botonEditar" class="botonPulsar">Editar Anuncio</button></p>
+    </form>
+
+</div>
+<script src="js/editar.js"></script>
+</body>
+</html>
